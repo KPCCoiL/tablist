@@ -22,6 +22,7 @@
 
 ;;
 
+(require 'cl-lib)
 (defvar python-mode-hook)
 (let (python-mode-hook)                 ;FIXME: Why?
 (require 'semantic/wisent/comp)
